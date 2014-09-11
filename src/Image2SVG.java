@@ -51,10 +51,7 @@ public class Image2SVG extends JFrame
 		
 
 		JPanel dpanel = new JPanel();
-		dpanel.add( new JLabel( icon ) );//"Drop images here."
-		dpanel.setPreferredSize( new Dimension( 400, 205 ) );
-		///Border border = BorderFactory.createDashedBorder( Color.GRAY, 10, 5 );
-		//dpanel.setBorder( border );
+		dpanel.add( new JLabel( icon ) );
 
 		JPanel option = new JPanel();
 		option.setLayout( new GridLayout( 2, 3 ) );
