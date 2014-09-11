@@ -1,6 +1,5 @@
 import java.awt.BorderLayout;
 import java.awt.Container;
-import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.Transferable;
@@ -22,10 +21,12 @@ import javax.swing.JProgressBar;
 
 import net.azulite.BufferedImage.BufferedImage2SVG;
 
+// http://www.w3.org/2009/08/svg-logos.html
+
 public class Image2SVG extends JFrame
 {
 	private static final long serialVersionUID = 1L;
-	public static String ver = "1.0";
+	public static String ver = "1.0.1";
 
 	public static void main( String[] args )
 	{
@@ -177,8 +178,7 @@ class DropImage extends DropTargetAdapter
 					frame.setSuccess( success );
 				} else
 				{
-					loader.setMaximum( --max );
-					frame.setFailure( ++failure );
+					throw new Exception();
 				}
 			} catch ( Exception e )
 			{
