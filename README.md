@@ -1,16 +1,20 @@
 Image2SVG
 =========
 
-1. Want to use this app.
+## Want to use this app.
 
 Download Image2SVG.jar and lunch.
 
-2. Want to biuld.
+## Want to biuld.
 
 git clone and import from eclipse.
 
 ----
 
-1. 使いたい場合はImage2SVG.jarをダウンロードして下さい。
+## 使いたい場合
 
-2. 改造したい場合はEclioseでImportしてください。
+Image2SVG.jarをダウンロードして下さい。
+
+## 自分でビルドしたい場合
+
+gitでcloneしてEclioseでImportしてください。
